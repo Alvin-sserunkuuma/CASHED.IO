@@ -14,10 +14,10 @@ Technologies Used
 Cashed is built using modern web technologies to ensure a reliable and user-friendly experience for all stakeholders. The platform leverages secure authentication protocols and robust data management systems to safeguard user information and ensure the integrity of the fund disbursement process.
 
 Getting Started
-To access Cashed, visit the official website at www.cashed.ug • www.cashed.ug. New users can create an account to begin the application process, while existing users can log in to manage their profiles and track disbursements.
+To access Cashed, visit the official website at www.cashed.com New users can create an account to begin the application process, while existing users can log in to manage their profiles and track disbursements.
 
 Contributing
-Cashed is committed to improving the lives of the less privileged in Uganda. If you are interested in contributing to our mission or have suggestions for enhancing the platform, please reach out to our team at info@cashed.ug • mailto:info@cashed.ug.
+Cashed is committed to improving the lives of the less privileged in Uganda. If you are interested in contributing to our mission or have suggestions for enhancing the platform, please reach out to our team on +256757344110 or +256726211235
 
 Support
 For any questions or assistance with using the Cashed platform, please contact our support team at support@cashed.ug • .
