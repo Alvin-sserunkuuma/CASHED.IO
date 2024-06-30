@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("clips/coin2.jpeg");
+            background-position: top;
+            margin: 0;
+            padding: 10px;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            width: 60%;
+            max-width: 1000px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            position: relative;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        h1{
+            text-align: left;
+            color: gray;
+            margin-left: 41%;
+        }
+
+        input, select {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-cancel {
+            background-color: #dc3545;
+        }
+        .home-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+        }
+        .nav-links {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="home-link">Home</a>
+    <div class="nav-links">
+        <a href="login.html">Login</a>
+        <a href="register.html">Sign Up</a>
+    </div>
+    <form>
+        <!-- <img src="/clips/Financial logo, hand dollars logo.jpg" alt="" width="100cm" height="100cm"> -->
+        <img src="/clips/Financial logo, hand dollars logo.jpg" alt="" width="100cm"; length="100cm"; >
+        <h2>Register</h2>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <select required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <select required>
+            <option value="">Select Marital Status</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+        </select>
+        <input type="text" placeholder="Current Occupation" required>
+        <input type="text" placeholder="Prospected Occupation" required>
+        <input type="text" placeholder="Location" required>
+        <input type="number" placeholder="Age" required>
+        <input type="text" placeholder="NIN Number" required>
+        <button type="submit">Submit</button>
+        
+        <button type="button" class="btn-cancel">Cancel</button>
+    </form>
+</body>
+</html>
